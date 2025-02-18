@@ -31,10 +31,12 @@ body {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; // 圆形头像
+  float: left; // 右对齐
+  margin-left: 10px; // 和文字间距
+  margin-right: 40px;
 }
 
 // make video fluid:
