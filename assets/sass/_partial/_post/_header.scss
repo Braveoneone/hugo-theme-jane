@@ -12,13 +12,13 @@
     @include style-to-mobile {
       font-size: 1.3rem;
     }
-
-    .post-pinned svg {
-      vertical-align: middle;
-      width: 24px;
-      height: 24px;
-      fill: var(--pico-primary);
-    }
+// 20250619
+    // .post-pinned svg {
+    //   vertical-align: middle;
+    //   width: 24px;
+    //   height: 24px;
+    //   fill: var(--pico-primary);
+    // }
   }
 
   .post-title-i18n {
