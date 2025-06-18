@@ -107,13 +107,14 @@
       <li class="menu-item">
         {{ with .Site.GetPage "home" -}}
         {{- with .OutputFormats.Get "RSS" -}}
-        <a class="menu-item-link" href="{{ .Permalink }}" rel="noopener {{ .Rel }}" type="{{ .MediaType.Type }}"
+        <!-- 20250619 -->
+        <!-- <a class="menu-item-link" href="{{ .Permalink }}" rel="noopener {{ .Rel }}" type="{{ .MediaType.Type }}"
           title="rss" target="_blank">
           {{ partial "icons/icon" (dict
           "path" "icons/header/rss.svg"
           "className" "icon--rss"
           ) }}
-        </a>
+        </a> -->
         {{ end -}}
         {{ end }}
       </li>

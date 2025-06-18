@@ -27,11 +27,12 @@
 {{/* RSS icon */}}
 {{ with .Site.GetPage "home" -}}
 {{- with .OutputFormats.Get "RSS" -}}
-<a href="{{ .Permalink }}" rel="noopener {{ .Rel }}" type="{{ .MediaType.Type }}" class="social-icon-link" title="rss"
+<!-- 20250619 -->
+<!-- <a href="{{ .Permalink }}" rel="noopener {{ .Rel }}" type="{{ .MediaType.Type }}" class="social-icon-link" title="rss"
   target="_blank">
   {{ partial "icons/icon" (dict
   "path" "icons/header/rss.svg"
   ) }}
-</a>
+</a> -->
 {{ end -}}
 {{- end -}}
