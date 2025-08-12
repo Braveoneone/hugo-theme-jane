@@ -12,3 +12,21 @@
 //   font-family: -apple-system, BlinkMacSystemFont, SF UI Text, Helvetica Neue, PingFang SC,
 //     Hiragino Sans GB, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif;
 // }
+
+//yijane250812添加自定义style
+img[alt="Avatar"] {
+    width: 80px;
+    height: auto;
+    float: left;   
+    object-fit: cover;        /* 保持比例填满，防止拉伸变形 */
+    vertical-align: middle;     
+    margin-right: 10px; 
+}
+
+/* 手机等小屏幕适配 */
+@media (max-width: 600px) {
+  #flag-counter-container {
+    width: 100%;    /* 宽度占满手机屏幕 */
+    box-sizing: border-box; /* 包含内边距和边框在宽度内，避免溢出 */
+  }
+}
